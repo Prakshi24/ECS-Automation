@@ -20,7 +20,7 @@ jobs:
 
       - uses: hashicorp/setup-terraform@v1
         with:
-          terraform_version: 0.12.25
+          terraform_version: 1.0.0
 
       - name: Login to Amazon ECR
         id: login-ecr
